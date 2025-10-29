@@ -1,6 +1,5 @@
+import { createSSE } from './sse/index'
 import './style.css'
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <h1>javascript 工具库</h1>
-  </div>
-`
+
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = `<div>javascript 工具库</div>`
+createSSE()

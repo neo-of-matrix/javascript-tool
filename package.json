@@ -7,11 +7,15 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "server": "node ./src/sse/server.js"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
